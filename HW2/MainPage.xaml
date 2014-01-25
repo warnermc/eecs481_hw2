@@ -46,8 +46,8 @@
                         AutomationProperties.Name="Back"
                         AutomationProperties.AutomationId="BackButton"
                         AutomationProperties.ItemType="Navigation Button"/>
-            <TextBlock x:Name="pageTitle" Text="{StaticResource AppName}" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
-            	IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,-19,30,119" FontFamily="Impact" FontSize="48" Grid.ColumnSpan="2"/>
+            <TextBlock x:Name="pageTitle" Text="{StaticResource AppName}" Style="{StaticResource HeaderTextBlockStyle}" 
+            	IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="67,-9,83,109" FontFamily="Impact" FontSize="48" Grid.ColumnSpan="3"/>
         </Grid>
 
         <StackPanel Grid.Row="1" Margin="224,133,-104,-103">
